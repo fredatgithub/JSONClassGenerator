@@ -1,2 +1,2 @@
 # JSONClassGenerator
-old project from Codeplex
+Project from late Codeplex.com
