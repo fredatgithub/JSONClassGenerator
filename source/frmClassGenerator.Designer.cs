@@ -1,6 +1,6 @@
 ﻿namespace Xamasoft.JsonClassGenerator.UI
 {
-    partial class frmCSharpClassGeneration
+    partial class FrmCSharpClassGeneration
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCSharpClassGeneration));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCSharpClassGeneration));
             this.btnGenerate = new System.Windows.Forms.Button();
             this.edtJson = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -534,7 +534,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.MinimumSize = new System.Drawing.Size(671, 444);
-            this.Name = "frmCSharpClassGeneration";
+            this.Name = "FrmCSharpClassGeneration";
             this.Text = "Xamasoft JSON Class Generator";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmCSharpClassGeneration_FormClosing);
             this.Load += new System.EventHandler(this.frmCSharpClassGeneration_Load);

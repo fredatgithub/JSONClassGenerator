@@ -1,6 +1,6 @@
 ﻿namespace Xamasoft.JsonClassGenerator.UI
 {
-    partial class frmAbout
+    partial class FrmAbout
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAbout));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAbout));
             this.btnOK = new System.Windows.Forms.Button();
             this.linkLabel1 = new Xamasoft.Controls.BetterLinkLabel();
             this.lblVersion = new System.Windows.Forms.Label();
@@ -130,7 +130,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "frmAbout";
+            this.Name = "FrmAbout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "About Xamasoft JSON Class Generator";
             this.Load += new System.EventHandler(this.frmAbout_Load);

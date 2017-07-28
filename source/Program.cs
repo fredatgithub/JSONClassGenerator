@@ -1,26 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows.Forms;
 
 namespace Xamasoft.JsonClassGenerator.UI
 {
-    static class Program
+  internal static class Program
+  {
+    /// <summary>
+    /// The main entry point for the application.
+    /// </summary>
+    [STAThread]
+    private static void Main()
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        [STAThread]
-        static void Main()
-        {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCSharpClassGeneration());
-        }
-
-
-
-
+      Application.EnableVisualStyles();
+      Application.SetCompatibleTextRenderingDefault(false);
+      Application.Run(new FrmCSharpClassGeneration());
+    }
 
 #if APPSERVICES
         public static antiufo.ApplicationServices.ApplicationServices appServices;
@@ -37,16 +31,12 @@ namespace Xamasoft.JsonClassGenerator.UI
         }
 
 #else
-        public static void InitAppServices()
-        {
-
-        }
-
-#endif 
-        
-
-
-
+    public static void InitAppServices()
+    {
 
     }
+
+#endif
+
+  }
 }
